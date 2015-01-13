@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Marray-go-Round</title>
+        <meta name="description"
+              content="Example project developed as a lab for General Assembly’s
+              Front-End Web Development course. Aims to teach students how to
+              use arrays by creating an image carousel with each image’s URI
+              stored in an array index.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="grid clearfix">
+                <div class="marray-go-round full columns">
+                    <div class="marray-go-round__image">
+                    </div>
+                    <div class="marray-go-round__controls controls">
+                        <button class="marray-go-round__previous control control--previous js-marray-go-round-previous" type="button">
+                            Previous
+                        </button>
+                        <p class="marray-go-round__indicator control control--center"></p>
+                        <button class="marray-go-round__next control control--next js-marray-go-round-next" type="button">
+                            Next
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
