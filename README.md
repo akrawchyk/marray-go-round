@@ -57,10 +57,10 @@ Use the above features and scenario stories for reference as you follow the chec
 
 ### JavaScript
 
-- [ ] Create an array for storage of your set of images
-- [ ] Create a variable for remembering the current image index of your set
+- [ ] Create an array for storing your set of images
+- [ ] Create a variable for storing the current image index of your set
 - [ ] Write jQuery to perform a task for each `.marray-go-round` element on the page
-- [ ] Create a `$this` variable to store a jQuery object of the current carousel element-
+- [ ] Create a `$this` variable to store a jQuery object of the current carousel element
 - [ ] Write a function that uses jQuery to find the `.marray-go-round__image` element in the current carousel and display the current image using jQuery's `.css()` function (remember to construct the correct css syntax for a backround-image)
 - [ ] Use the above function to show the first image in the set
 - [ ] Write a function that uses jQuery to find the `.marray-go-round__indicator` element in the current carousel and update the current number text with the new image's index

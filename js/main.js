@@ -39,8 +39,8 @@ $(document).ready(function() {
     $this.find('.marray-go-round__next').on('click', function() {
       index = index + 1;
 
-      // in case we click the previous button on the first image, wrap to the
-      // end of the set by setting index to the images count
+      // in case we click the next button on the last image, wrap to the
+      // beginning of the set by setting index to 0
       if (index >= imagesCount) {
         index = 0;
       }
@@ -53,7 +53,8 @@ $(document).ready(function() {
       index = index - 1;
 
       // in case we click the previous button on the first image, wrap to the
-      // end of the set by setting index to the images count
+      // end of the set by setting index to the images count-1 to account for
+      // zero indexing
       if (index < 0) {
         index = imagesCount-1;
       }
